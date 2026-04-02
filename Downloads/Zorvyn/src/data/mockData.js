@@ -1,0 +1,63 @@
+// -----------------------------------------------
+// Mock Data - All the transactions used in the app
+// -----------------------------------------------
+
+export const CATEGORIES = [
+  'Food & Dining',
+  'Transport',
+  'Shopping',
+  'Entertainment',
+  'Healthcare',
+  'Utilities',
+  'Housing',
+];
+
+export const INCOME_CATEGORIES = ['Salary', 'Freelance', 'Investment'];
+
+export const TRANSACTIONS = [
+  { id: 1,  date: '2026-04-01', description: 'Monthly Salary',        amount: 5500,   category: 'Salary',        type: 'income'  },
+  { id: 2,  date: '2026-03-31', description: 'Grocery Shopping',       amount: 145.50, category: 'Food & Dining', type: 'expense' },
+  { id: 3,  date: '2026-03-30', description: 'Netflix Subscription',   amount: 15.99,  category: 'Entertainment', type: 'expense' },
+  { id: 4,  date: '2026-03-29', description: 'Uber Ride',              amount: 22.30,  category: 'Transport',     type: 'expense' },
+  { id: 5,  date: '2026-03-28', description: 'Freelance Payment',      amount: 1200,   category: 'Freelance',     type: 'income'  },
+  { id: 6,  date: '2026-03-27', description: 'Restaurant Dinner',      amount: 67.80,  category: 'Food & Dining', type: 'expense' },
+  { id: 7,  date: '2026-03-26', description: 'Online Shopping',        amount: 134.99, category: 'Shopping',      type: 'expense' },
+  { id: 8,  date: '2026-03-25', description: 'Stock Dividend',         amount: 320,    category: 'Investment',    type: 'income'  },
+  { id: 9,  date: '2026-03-24', description: 'Electricity Bill',       amount: 89.00,  category: 'Utilities',     type: 'expense' },
+  { id: 10, date: '2026-03-23', description: 'Doctor Visit',           amount: 120.00, category: 'Healthcare',    type: 'expense' },
+  { id: 11, date: '2026-03-22', description: 'Rent Payment',           amount: 1400.00,category: 'Housing',       type: 'expense' },
+  { id: 12, date: '2026-03-21', description: 'Coffee & Snacks',        amount: 28.50,  category: 'Food & Dining', type: 'expense' },
+  { id: 13, date: '2026-03-20', description: 'Gym Membership',         amount: 49.99,  category: 'Healthcare',    type: 'expense' },
+  { id: 14, date: '2026-03-18', description: 'Bus Pass',               amount: 35.00,  category: 'Transport',     type: 'expense' },
+  { id: 15, date: '2026-03-17', description: 'Spotify Premium',        amount: 9.99,   category: 'Entertainment', type: 'expense' },
+  { id: 16, date: '2026-03-15', description: 'Pharmacy',               amount: 43.60,  category: 'Healthcare',    type: 'expense' },
+  { id: 17, date: '2026-03-13', description: 'Clothes Shopping',       amount: 215.00, category: 'Shopping',      type: 'expense' },
+  { id: 18, date: '2026-03-10', description: 'Internet Bill',          amount: 59.00,  category: 'Utilities',     type: 'expense' },
+  { id: 19, date: '2026-03-08', description: 'Movie Tickets',          amount: 32.00,  category: 'Entertainment', type: 'expense' },
+  { id: 20, date: '2026-03-01', description: 'Monthly Salary',         amount: 5500,   category: 'Salary',        type: 'income'  },
+  { id: 21, date: '2026-02-28', description: 'Grocery Shopping',       amount: 160.00, category: 'Food & Dining', type: 'expense' },
+  { id: 22, date: '2026-02-25', description: 'Rent Payment',           amount: 1400.00,category: 'Housing',       type: 'expense' },
+  { id: 23, date: '2026-02-22', description: 'Freelance Work',         amount: 800,    category: 'Freelance',     type: 'income'  },
+  { id: 24, date: '2026-02-18', description: 'Electricity Bill',       amount: 94.00,  category: 'Utilities',     type: 'expense' },
+  { id: 25, date: '2026-02-14', description: 'Restaurant',             amount: 55.00,  category: 'Food & Dining', type: 'expense' },
+  { id: 26, date: '2026-02-10', description: 'Amazon Purchase',        amount: 78.99,  category: 'Shopping',      type: 'expense' },
+  { id: 27, date: '2026-02-05', description: 'Uber Rides',             amount: 41.00,  category: 'Transport',     type: 'expense' },
+  { id: 28, date: '2026-02-01', description: 'Monthly Salary',         amount: 5500,   category: 'Salary',        type: 'income'  },
+  { id: 29, date: '2026-01-28', description: 'Grocery Shopping',       amount: 138.00, category: 'Food & Dining', type: 'expense' },
+  { id: 30, date: '2026-01-25', description: 'Rent Payment',           amount: 1400.00,category: 'Housing',       type: 'expense' },
+  { id: 31, date: '2026-01-20', description: 'Investment Returns',     amount: 450,    category: 'Investment',    type: 'income'  },
+  { id: 32, date: '2026-01-15', description: 'Internet Bill',          amount: 59.00,  category: 'Utilities',     type: 'expense' },
+  { id: 33, date: '2026-01-10', description: 'Electronics',            amount: 350.00, category: 'Shopping',      type: 'expense' },
+  { id: 34, date: '2026-01-01', description: 'Monthly Salary',         amount: 5500,   category: 'Salary',        type: 'income'  },
+  { id: 35, date: '2025-12-28', description: 'Grocery Shopping',       amount: 155.00, category: 'Food & Dining', type: 'expense' },
+  { id: 36, date: '2025-12-25', description: 'Rent Payment',           amount: 1400.00,category: 'Housing',       type: 'expense' },
+  { id: 37, date: '2025-12-20', description: 'Freelance Design',       amount: 950,    category: 'Freelance',     type: 'income'  },
+  { id: 38, date: '2025-12-15', description: 'Utilities',              amount: 148.00, category: 'Utilities',     type: 'expense' },
+  { id: 39, date: '2025-12-10', description: 'Shopping Mall',          amount: 280.00, category: 'Shopping',      type: 'expense' },
+  { id: 40, date: '2025-12-01', description: 'Monthly Salary',         amount: 5500,   category: 'Salary',        type: 'income'  },
+  { id: 41, date: '2025-11-28', description: 'Grocery Shopping',       amount: 168.00, category: 'Food & Dining', type: 'expense' },
+  { id: 42, date: '2025-11-25', description: 'Rent Payment',           amount: 1400.00,category: 'Housing',       type: 'expense' },
+  { id: 43, date: '2025-11-20', description: 'Online Shopping',        amount: 195.00, category: 'Shopping',      type: 'expense' },
+  { id: 44, date: '2025-11-15', description: 'Bus & Taxi',             amount: 52.00,  category: 'Transport',     type: 'expense' },
+  { id: 45, date: '2025-11-01', description: 'Monthly Salary',         amount: 5500,   category: 'Salary',        type: 'income'  },
+];
